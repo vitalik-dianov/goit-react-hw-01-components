@@ -22,4 +22,5 @@ export const FriendItem = styled.li`
   display: flex;
   gap: ${p => p.theme.space[6]};
   box-shadow: ${p => p.theme.shadows.all};
+  background-color: ${p => p.theme.colors.backgroundWhite};
 `;
