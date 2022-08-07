@@ -1,6 +1,6 @@
 import { PropTypes } from 'prop-types';
 import { HeadTable, TransactionRow, Cell } from './TransactionHistory.styled';
-import {B}
+
 
 export const TransactionHistory = ({ transactions }) => {
   return (
