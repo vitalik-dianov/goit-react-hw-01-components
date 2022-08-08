@@ -42,8 +42,8 @@ export const App = () => {
         flexDirection="column"
         justifyContent="space-evenly"
       >
-        <Statistics title="Upload stats" data={data}></Statistics>
-        <Statistics data={data}></Statistics>
+        <Statistics title="Upload stats" data={data}/>
+        <Statistics data={data}/>
       </Box>
       <Box
         position="relative"
@@ -57,7 +57,7 @@ export const App = () => {
         flexDirection="column"
         justifyContent="space-evenly"
       >
-        <FriendList friends={friends}></FriendList>
+        <FriendList friends={friends}/>
       </Box>
       <Box
         position="relative"
@@ -71,7 +71,7 @@ export const App = () => {
         flexDirection="column"
         justifyContent="space-evenly"
       >
-        <TransactionHistory transactions={transactions}></TransactionHistory>
+        <TransactionHistory transactions={transactions}/>
       </Box>
     </Box>
   );
